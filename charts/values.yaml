@@ -12,6 +12,9 @@ certManager:
   namespace: cert-manager
   serviceAccountName: cert-manager
 
+# The secret which you created to hold DNSPod API Token
+apiTokenSecretName: dnspod-credentials
+
 replicaCount: 1
 
 image:

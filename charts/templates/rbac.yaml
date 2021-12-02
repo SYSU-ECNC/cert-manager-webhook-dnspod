@@ -96,7 +96,7 @@ rules:
   resources:
   - "secrets"
   resourceNames:
-  - "dnspod-credentials"
+  - {{ .Values.apiTokenSecretName }}
   verbs:
   - "get"
   - "watch"
@@ -130,7 +130,7 @@ rules:
   resources:
   - "secrets"
   resourceNames:
-  - "dnspod-credentials"
+  - {{ .Values.apiTokenSecretName }}
   verbs:
   - "get"
   - "watch"

@@ -24,7 +24,7 @@ Tested on production environment of
 
 ### Prepare for DNSPod
 
-Create secret to store the API Token
+Create secret to store the API Token.
 
 ```sh
 kubectl --namespace cert-manager create secret generic \
@@ -44,6 +44,9 @@ You need to create a `values.yaml` file to override the default value of `groupN
 ```yaml
 # The `groupName` here should be same as the value in cluster issuer below
 groupName: <your group name>
+
+# The `apiTokenSecretName` here should be same as the name of the secret you just created, or `cert-manager-webhook-dnspod` won't have permission to access it 
+apiTokenSecretName: dnspod-credentials
 ```
 
 ```
