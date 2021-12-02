@@ -15,9 +15,9 @@ certManager:
 replicaCount: 1
 
 image:
-  repository: SYSU-ECNC/cert-manager-webhook-dnspod
+  repository: ghcr.io/sysu-ecnc/cert-manager-webhook-dnspod
   pullPolicy: IfNotPresent
-  tag: 1.3.3
+  tag: 1.3.3-ecnc
 
 nameOverride: ""
 fullnameOverride: ""
