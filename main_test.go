@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/jetstack/cert-manager/test/acme/dns"
-	"github.com/kaelzhang/cert-manager-webhook-dnspod/dnspod"
+	"github.com/SYSU-ECNC/cert-manager-webhook-dnspod/dnspod"
 )
 
 var (

@@ -36,7 +36,7 @@ kubectl --namespace cert-manager create secret generic \
 Clone this repository:
 
 ```
-git clone https://github.com/kaelzhang/cert-manager-webhook-dnspod.git
+git clone https://github.com/SYSU-ECNC/cert-manager-webhook-dnspod.git
 ```
 
 You need to create a `values.yaml` file to override the default value of `groupName` for the helm chart.

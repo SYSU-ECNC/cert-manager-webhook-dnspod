@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/jetstack/cert-manager/pkg/acme/webhook/cmd"
-	"github.com/kaelzhang/cert-manager-webhook-dnspod/dnspod"
+	"github.com/SYSU-ECNC/cert-manager-webhook-dnspod/dnspod"
 )
 
 func main() {

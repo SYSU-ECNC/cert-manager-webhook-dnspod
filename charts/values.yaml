@@ -15,9 +15,9 @@ certManager:
 replicaCount: 1
 
 image:
-  repository: kaelz/cert-manager-webhook-dnspod
+  repository: SYSU-ECNC/cert-manager-webhook-dnspod
   pullPolicy: IfNotPresent
-  tag: 1.2.0
+  tag: 1.3.3
 
 nameOverride: ""
 fullnameOverride: ""

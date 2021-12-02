@@ -1,4 +1,4 @@
-module github.com/kaelzhang/cert-manager-webhook-dnspod
+module github.com/SYSU-ECNC/cert-manager-webhook-dnspod
 
 go 1.15
 
