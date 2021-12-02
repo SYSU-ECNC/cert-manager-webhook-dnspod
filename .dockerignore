@@ -1,4 +1,11 @@
-*
-!go.*
-!*.go
-main_test.go
+.github/
+.vscode/
+charts/
+scripts/
+testdata/
+.dockerignore
+.gitignore
+Dockerfile
+LICENSE
+Makefile
+README.md
